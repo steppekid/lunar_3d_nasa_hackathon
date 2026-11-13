@@ -1,0 +1,4 @@
+numpy>=2.0
+skyfield>=1.49,<2   # ephem.py uses PlanetaryConstants._segment_list (see comment there)
+requests>=2.31
+pytest>=8.0

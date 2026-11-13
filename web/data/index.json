@@ -1,0 +1,302 @@
+{
+ "generated_utc": "2026-11-13T17:03:21+00:00",
+ "period": {
+  "start": "2027-01-01T00:00:00Z",
+  "end": "2028-12-31T23:00:00Z",
+  "step_h": 1
+ },
+ "sites": [
+  {
+   "id": "cr",
+   "ref": "Site01",
+   "name": "Connecting ridge",
+   "lat": -89.4632,
+   "lon": -137.49,
+   "variants": {
+    "databook": {
+     "dir": "cr",
+     "lat": -89.4632,
+     "lon": -137.49,
+     "offset_m": 0.0,
+     "slope_deg": 3.6,
+     "ground_height_m": 1943.26,
+     "summary_full_period": {
+      "pct_sunlit_any": 49.777701778385776,
+      "pct_full_sun": 40.58937528499772,
+      "pct_earth": 39.54628362973096,
+      "pct_both": 19.944140446876425,
+      "longest_dark_h": 497,
+      "longest_comms_gap_h": 414
+     },
+     "validation_max_arcsec": {
+      "sun": 0.016,
+      "earth": 0.471
+     }
+    },
+    "best": {
+     "dir": "cr-best",
+     "lat": -89.45116,
+     "lon": -137.14272,
+     "offset_m": 378.5,
+     "slope_deg": 1.0,
+     "ground_height_m": 1956.0,
+     "summary_full_period": {
+      "pct_sunlit_any": 90.82307341541268,
+      "pct_full_sun": 81.07045143638851,
+      "pct_earth": 54.29206566347469,
+      "pct_both": 49.41860465116279,
+      "longest_dark_h": 122,
+      "longest_comms_gap_h": 319
+     },
+     "validation_max_arcsec": {
+      "sun": 0.017,
+      "earth": 0.471
+     }
+    }
+   }
+  },
+  {
+   "id": "sr",
+   "ref": "Site04",
+   "name": "Shackleton rim",
+   "lat": -89.7668,
+   "lon": -171.87,
+   "variants": {
+    "databook": {
+     "dir": "sr",
+     "lat": -89.7668,
+     "lon": -171.87,
+     "offset_m": 0.0,
+     "slope_deg": 32.1,
+     "ground_height_m": 772.5,
+     "summary_full_period": {
+      "pct_sunlit_any": 11.337209302325581,
+      "pct_full_sun": 6.623347013223895,
+      "pct_earth": 0.0,
+      "pct_both": 0.0,
+      "longest_dark_h": 4901,
+      "longest_comms_gap_h": 17544
+     },
+     "validation_max_arcsec": {
+      "sun": 0.009,
+      "earth": 0.471
+     }
+    }
+   }
+  },
+  {
+   "id": "nr1",
+   "ref": "Site06",
+   "name": "Nobile rim 1",
+   "lat": -85.4381,
+   "lon": 37.36667,
+   "variants": {
+    "databook": {
+     "dir": "nr1",
+     "lat": -85.4381,
+     "lon": 37.36667,
+     "offset_m": 0.0,
+     "slope_deg": 16.6,
+     "ground_height_m": 5945.0,
+     "summary_full_period": {
+      "pct_sunlit_any": 31.868445052439583,
+      "pct_full_sun": 30.25535795713634,
+      "pct_earth": 35.41951664386685,
+      "pct_both": 12.21500227998176,
+      "longest_dark_h": 512,
+      "longest_comms_gap_h": 438
+     },
+     "validation_max_arcsec": {
+      "sun": 0.156,
+      "earth": 0.471
+     }
+    },
+    "best": {
+     "dir": "nr1-best",
+     "lat": -85.452121,
+     "lon": 37.271862,
+     "offset_m": 483.3,
+     "slope_deg": 1.1,
+     "ground_height_m": 6022.5,
+     "summary_full_period": {
+      "pct_sunlit_any": 48.48951208390333,
+      "pct_full_sun": 42.36776105791154,
+      "pct_earth": 48.506611947104425,
+      "pct_both": 25.165298677610583,
+      "longest_dark_h": 303,
+      "longest_comms_gap_h": 357
+     },
+     "validation_max_arcsec": {
+      "sun": 0.156,
+      "earth": 0.471
+     }
+    }
+   }
+  },
+  {
+   "id": "ps",
+   "ref": "Site07",
+   "name": "Peak near Shackleton",
+   "lat": -88.811,
+   "lon": 123.6901,
+   "variants": {
+    "databook": {
+     "dir": "ps",
+     "lat": -88.811,
+     "lon": 123.6901,
+     "offset_m": 0.0,
+     "slope_deg": 1.4,
+     "ground_height_m": 1644.51,
+     "summary_full_period": {
+      "pct_sunlit_any": 79.10396716826266,
+      "pct_full_sun": 65.40127678978568,
+      "pct_earth": 57.49544003647971,
+      "pct_both": 46.135430916552664,
+      "longest_dark_h": 381,
+      "longest_comms_gap_h": 299
+     },
+     "validation_max_arcsec": {
+      "sun": 0.04,
+      "earth": 0.471
+     }
+    },
+    "best": {
+     "dir": "ps-best",
+     "lat": -88.809179,
+     "lon": 123.70767,
+     "offset_m": 56.3,
+     "slope_deg": 1.4,
+     "ground_height_m": 1647.5,
+     "summary_full_period": {
+      "pct_sunlit_any": 88.67419060647515,
+      "pct_full_sun": 82.31304149566803,
+      "pct_earth": 57.090743274053814,
+      "pct_both": 53.619471044231645,
+      "longest_dark_h": 137,
+      "longest_comms_gap_h": 302
+     },
+     "validation_max_arcsec": {
+      "sun": 0.04,
+      "earth": 0.471
+     }
+    }
+   }
+  },
+  {
+   "id": "dg",
+   "ref": "Site11",
+   "name": "de Gerlache rim 1",
+   "lat": -88.6834,
+   "lon": -67.9321,
+   "variants": {
+    "databook": {
+     "dir": "dg",
+     "lat": -88.6834,
+     "lon": -67.9321,
+     "offset_m": 0.0,
+     "slope_deg": 3.9,
+     "ground_height_m": 1794.02,
+     "summary_full_period": {
+      "pct_sunlit_any": 70.04673962608298,
+      "pct_full_sun": 57.090743274053814,
+      "pct_earth": 57.68923848609211,
+      "pct_both": 37.76789785681714,
+      "longest_dark_h": 404,
+      "longest_comms_gap_h": 300
+     },
+     "validation_max_arcsec": {
+      "sun": 0.042,
+      "earth": 0.471
+     }
+    },
+    "best": {
+     "dir": "dg-best",
+     "lat": -88.669715,
+     "lon": -68.293538,
+     "offset_m": 486.2,
+     "slope_deg": 1.1,
+     "ground_height_m": 1812.5,
+     "summary_full_period": {
+      "pct_sunlit_any": 87.32900136798905,
+      "pct_full_sun": 79.1438668490652,
+      "pct_earth": 57.706338349293205,
+      "pct_both": 50.182398540811676,
+      "longest_dark_h": 184,
+      "longest_comms_gap_h": 301
+     },
+     "validation_max_arcsec": {
+      "sun": 0.042,
+      "earth": 0.471
+     }
+    }
+   }
+  },
+  {
+   "id": "lbp",
+   "ref": "Site20",
+   "name": "Leibnitz beta plateau",
+   "lat": -85.4266,
+   "lon": 31.74276,
+   "variants": {
+    "databook": {
+     "dir": "lbp",
+     "lat": -85.4266,
+     "lon": 31.74276,
+     "offset_m": 0.0,
+     "slope_deg": 7.4,
+     "ground_height_m": 6397.43,
+     "summary_full_period": {
+      "pct_sunlit_any": 24.606703146374826,
+      "pct_full_sun": 16.79206566347469,
+      "pct_earth": 37.294801641586865,
+      "pct_both": 6.805745554035568,
+      "longest_dark_h": 2805,
+      "longest_comms_gap_h": 428
+     },
+     "validation_max_arcsec": {
+      "sun": 0.155,
+      "earth": 0.471
+     }
+    },
+    "best": {
+     "dir": "lbp-best",
+     "lat": -85.41234,
+     "lon": 31.748813,
+     "offset_m": 433.4,
+     "slope_deg": 4.0,
+     "ground_height_m": 6453.5,
+     "summary_full_period": {
+      "pct_sunlit_any": 81.83424532603739,
+      "pct_full_sun": 74.1906064751482,
+      "pct_earth": 63.902188782489745,
+      "pct_both": 47.4578203374373,
+      "longest_dark_h": 300,
+      "longest_comms_gap_h": 258
+     },
+     "validation_max_arcsec": {
+      "sun": 0.155,
+      "earth": 0.471
+     }
+    }
+   }
+  }
+ ],
+ "overview": {
+  "file": "overview.bin",
+  "n": 475,
+  "pixel_m": 1280.0,
+  "layout": "int16 LE heights (m, rel. 1737.4 km sphere), row 0 = top of polar stereographic map (toward 0 E), col 0 = left (toward 90 W)",
+  "min_m": -7133.2578125,
+  "max_m": 6958.615234375
+ },
+ "dem": {
+  "product": "LRO LOLA LDEM_80S_80M (PDS LRO-L-LOLA-4-GDR-V1.0, V2.0)",
+  "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/polar/img/ldem_80s_80m.img"
+ },
+ "ephemeris": {
+  "spk": "DE440 (de440s.bsp)",
+  "orientation": "moon_pa_de440_200625.bpc",
+  "frame": "MOON_ME_DE440_ME421",
+  "engine": "Skyfield"
+ }
+}
